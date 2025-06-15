@@ -1,0 +1,66 @@
+body{
+    height:100%;
+    margin:30px;
+    padding:0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+    width:100%;
+}
+#board{
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows:repeat(3,1fr);
+   height: 300px;
+   width:300px;
+}
+#title{
+    display:block;
+}
+.button{
+    height: 90px;
+    width: 90px;
+    padding:10px;
+    margin:5px;
+    color: black;
+}
+.info{
+    width:100%;
+    margin:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+}
+.win{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+}
+.hidden{
+    display: none;
+}
+#restart button {
+    border-radius: 8px;
+    border:solid 1px ;
+    padding: 10px;
+}
+#theme{
+    border-radius:8px;
+    border:solid 1px ;
+    padding: 10px;
+}
+.dark{
+  transition: all 0.5s ease-in-out;
+  background-color: #222831;
+  color:rgb(235, 235, 235);
+}
+
